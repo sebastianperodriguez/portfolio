@@ -170,7 +170,7 @@ button:focus-visible,
 @media print {
   @page {
     size: A4;
-    margin: 14mm 16mm;
+    margin: 12mm 14mm;
   }
 
   html,

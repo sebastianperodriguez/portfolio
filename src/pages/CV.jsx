@@ -8,15 +8,15 @@ const RULE = "#16161c";
 
 function Section({ title, children }) {
   return (
-    <section className="mt-7">
+    <section className="mt-3.5">
       <h2
-        className="text-[11px] font-bold tracking-[0.2em] uppercase"
+        className="text-[10.5px] font-bold tracking-[0.2em] uppercase"
         style={{ color: INK }}
       >
         {title}
       </h2>
       <div className="mt-1.5 h-px w-full" style={{ backgroundColor: RULE }} />
-      <div className="mt-3.5">{children}</div>
+      <div className="mt-2.5">{children}</div>
     </section>
   );
 }
@@ -61,7 +61,7 @@ export default function CV() {
       >
         <header className="text-center">
           <h1
-            className="text-[28px] leading-tight font-bold tracking-tight"
+            className="text-[26px] leading-tight font-bold tracking-tight"
             style={{ fontFamily: "var(--font-heading)", color: INK }}
           >
             {personalInfo.name}
@@ -74,12 +74,12 @@ export default function CV() {
           </p>
 
           <div
-            className="mx-auto mt-5 h-px w-16"
+            className="mx-auto mt-3 h-px w-16"
             style={{ backgroundColor: "#c9a96e" }}
             aria-hidden="true"
           />
 
-          <p className="mt-4 text-[11.5px] leading-relaxed" style={{ color: MUTED }}>
+          <p className="mt-3 text-[11px] leading-relaxed" style={{ color: MUTED }}>
             <a href={`mailto:${personalInfo.email}`} style={{ color: MUTED }}>
               {personalInfo.email}
             </a>
@@ -106,23 +106,23 @@ export default function CV() {
 
         <Section title="Educación">
           {cvData.education.map((item) => (
-            <div key={item.title} className="mb-4 last:mb-0">
+            <div key={item.title} className="mb-2.5 last:mb-0">
               <div className="flex items-baseline justify-between gap-4">
-                <h3 className="text-[13px] font-semibold" style={{ color: INK }}>
+                <h3 className="text-[12.5px] font-semibold" style={{ color: INK }}>
                   {item.title}
                 </h3>
                 <span
-                  className="shrink-0 text-[11px]"
+                  className="shrink-0 text-[10.5px]"
                   style={{ color: SOFT }}
                 >
                   {item.period}
                 </span>
               </div>
-              <p className="text-[11.5px] italic" style={{ color: MUTED }}>
+              <p className="text-[11px] italic" style={{ color: MUTED }}>
                 {item.institution}
               </p>
               <p
-                className="mt-1 text-[11.5px] leading-[1.6]"
+                className="mt-0.5 text-[11px] leading-[1.5]"
                 style={{ color: MUTED }}
               >
                 {item.detail}
@@ -133,28 +133,28 @@ export default function CV() {
 
         <Section title="Experiencia y proyectos">
           {projects.map((project) => (
-            <div key={project.id} className="mb-5 last:mb-0">
+            <div key={project.id} className="mb-2.5 last:mb-0">
               <div className="flex items-baseline justify-between gap-4">
-                <h3 className="text-[13px] font-semibold" style={{ color: INK }}>
+                <h3 className="text-[12.5px] font-semibold" style={{ color: INK }}>
                   {project.title}
                 </h3>
-                <span className="shrink-0 text-[11px]" style={{ color: SOFT }}>
+                <span className="shrink-0 text-[10.5px]" style={{ color: SOFT }}>
                   {project.context}
                 </span>
               </div>
 
               <p
-                className="mt-1 text-[11.5px] leading-[1.6]"
+                className="mt-0.5 text-[11px] leading-[1.5]"
                 style={{ color: MUTED }}
               >
-                {project.description}
+                {project.summary}
               </p>
 
-              <ul className="mt-2 space-y-1">
+              <ul className="mt-1 space-y-0.5">
                 {project.highlights.map((highlight) => (
                   <li
                     key={highlight}
-                    className="flex gap-2 text-[11.5px] leading-[1.55]"
+                    className="flex gap-2 text-[11px] leading-[1.45]"
                     style={{ color: MUTED }}
                   >
                     <span style={{ color: "#9a9a8c" }} aria-hidden="true">
@@ -165,7 +165,7 @@ export default function CV() {
                 ))}
               </ul>
 
-              <p className="mt-1.5 text-[11px]" style={{ color: SOFT }}>
+              <p className="mt-1 text-[10.5px]" style={{ color: SOFT }}>
                 <span className="font-semibold" style={{ color: MUTED }}>
                   Stack:
                 </span>{" "}
@@ -176,14 +176,14 @@ export default function CV() {
         </Section>
 
         <Section title="Technical skills">
-          <div className="grid grid-cols-2 gap-x-8 gap-y-3">
+          <div className="grid grid-cols-2 gap-x-8 gap-y-2.5">
             {Object.entries(skills).map(([category, items]) => (
               <div key={category}>
-                <h3 className="text-[11.5px] font-semibold" style={{ color: INK }}>
+                <h3 className="text-[11px] font-semibold" style={{ color: INK }}>
                   {category}
                 </h3>
                 <p
-                  className="mt-0.5 text-[11px] leading-[1.55]"
+                  className="mt-0.5 text-[10.5px] leading-[1.45]"
                   style={{ color: MUTED }}
                 >
                   {items.join(" · ")}
@@ -196,7 +196,7 @@ export default function CV() {
         <Section title="Idiomas">
           <ul className="flex flex-wrap gap-x-8 gap-y-1">
             {cvData.languages.map((language) => (
-              <li key={language.name} className="text-[11.5px]" style={{ color: MUTED }}>
+              <li key={language.name} className="text-[11px]" style={{ color: MUTED }}>
                 <span className="font-semibold" style={{ color: INK }}>
                   {language.name}
                 </span>{" "}
@@ -207,9 +207,9 @@ export default function CV() {
         </Section>
 
         <Section title="Intereses">
-          <ul className="space-y-1">
+          <ul className="space-y-0.5">
             {cvData.interests.map((interest) => (
-              <li key={interest} className="text-[11.5px] leading-[1.6]" style={{ color: MUTED }}>
+              <li key={interest} className="text-[11px] leading-[1.5]" style={{ color: MUTED }}>
                 {interest}
               </li>
             ))}

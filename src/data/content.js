@@ -35,6 +35,8 @@ export const projects = [
     context: "Proyecto Integrador · Henry · Módulo 3",
     description:
       "SPA que permite conversar con Pedro Morales Pino, compositor y bandolista colombiano considerado el padre de la música colombiana. El personaje responde con su biografía real, el bambuco, el pasillo y la bandola andina, siempre en un español latinoamericano natural.",
+    summary:
+      "Chatbot conversacional sobre la tradición musical colombiana con Google Gemini AI.",
     technologies: [
       "JavaScript",
       "Vite",
@@ -57,6 +59,8 @@ export const projects = [
     context: "Proyecto Final · Full Stack · Equipo de 4",
     description:
       "Billetera digital que gestiona saldos en COP, USD y EUR: registro e inicio de sesión, compra, venta e intercambio de monedas con tasas en vivo, depósitos, pagos a comercios, historial filtrable, asistente de IA y calculadora de presupuesto de viaje.",
+    summary:
+      "Billetera digital multi-moneda (COP/USD/EUR) con API REST, JWT y asistente de IA.",
     technologies: [
       "React 19",
       "TypeScript",
@@ -91,6 +95,8 @@ export const projects = [
     context: "Proyecto Integrador · Henry · Módulo 4",
     description:
       "Aplicación web para la gestión de tareas diarias: autenticación con correo y Google, persistencia en Cloud Firestore filtrada por usuario y envío automatizado de resúmenes por correo mediante AWS SES. Interfaz responsiva con diseño glassmorphism y rutas protegidas.",
+    summary:
+      "Gestor de tareas con autenticación federada, Firestore y resúmenes por correo con AWS SES.",
     technologies: [
       "React 19",
       "TypeScript",
@@ -226,7 +232,7 @@ export const cvData = {
       institution: "[TU INSTITUCIÓN]",
       period: "[AÑO — AÑO]",
       detail:
-        "Formación en humanidades. Aporta análisis crítico, argumentación y redacción técnica, el mismo trabajo de pensar problemas que aplico al diseñar software.",
+        "Formación en humanidades: análisis crítico, argumentación y redacción técnica.",
     },
   ],
   languages: [
@@ -234,6 +240,6 @@ export const cvData = {
     { name: "Inglés", level: "Intermedio" },
   ],
   interests: [
-    "Música — compositor y músico. Trabajo en la tradición andina colombiana, el mismo territorio que da forma a uno de mis proyectos.",
+    "Música — compositor y músico; la tradición andina colombiana.",
   ],
 };
