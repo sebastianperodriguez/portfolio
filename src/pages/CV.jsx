@@ -104,6 +104,12 @@ export default function CV() {
           </p>
         </header>
 
+        <Section title="Perfil">
+          <p className="text-[11px] leading-[1.5]" style={{ color: MUTED }}>
+            {cvData.summary}
+          </p>
+        </Section>
+
         <Section title="Educación">
           {cvData.education.map((item) => (
             <div key={item.title} className="mb-2.5 last:mb-0">

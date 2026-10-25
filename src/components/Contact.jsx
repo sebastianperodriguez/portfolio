@@ -79,6 +79,14 @@ export default function Contact() {
               GitHub
             </a>
           )}
+
+          <a
+            href="/cv.pdf"
+            download
+            className="link-muted text-sm font-medium underline underline-offset-4"
+          >
+            Descargar CV (PDF)
+          </a>
         </motion.div>
 
         <motion.p

@@ -36,7 +36,7 @@ export const projects = [
     description:
       "SPA que permite conversar con Pedro Morales Pino, compositor y bandolista colombiano considerado el padre de la música colombiana. El personaje responde con su biografía real, el bambuco, el pasillo y la bandola andina, siempre en un español latinoamericano natural.",
     summary:
-      "Chatbot conversacional sobre la tradición musical colombiana con Google Gemini AI.",
+      "Chatbot con Google Gemini sobre la vida y obra de Pedro Morales Pino, compositor colombiano. Serverless Function en Vercel con la clave de API protegida y tests unitarios del router SPA.",
     technologies: [
       "JavaScript",
       "Vite",
@@ -60,7 +60,7 @@ export const projects = [
     description:
       "Billetera digital que gestiona saldos en COP, USD y EUR: registro e inicio de sesión, compra, venta e intercambio de monedas con tasas en vivo, depósitos, pagos a comercios, historial filtrable, asistente de IA y calculadora de presupuesto de viaje.",
     summary:
-      "Billetera digital multi-moneda (COP/USD/EUR) con API REST, JWT y asistente de IA.",
+      "Billetera digital multi-moneda (COP/USD/EUR) construida por un equipo de 4: API REST en Express y PostgreSQL documentada con Swagger y desplegada en Railway, autenticación JWT, asistente de IA y pruebas automatizadas en backend y frontend.",
     technologies: [
       "React 19",
       "TypeScript",
@@ -96,7 +96,7 @@ export const projects = [
     description:
       "Aplicación web para la gestión de tareas diarias: autenticación con correo y Google, persistencia en Cloud Firestore filtrada por usuario y envío automatizado de resúmenes por correo mediante AWS SES. Interfaz responsiva con diseño glassmorphism y rutas protegidas.",
     summary:
-      "Gestor de tareas con autenticación federada, Firestore y resúmenes por correo con AWS SES.",
+      "Gestor de tareas con autenticación federada (correo y Google), persistencia en Cloud Firestore por usuario, resúmenes por correo automatizados con AWS SES y tests de componentes con Testing Library.",
     technologies: [
       "React 19",
       "TypeScript",
@@ -219,6 +219,8 @@ export const techMeta = {
 };
 
 export const cvData = {
+  summary:
+    "Full Stack Developer con proyectos desplegados y testeados en producción: billetera digital multi-moneda, chatbot con IA y gestor de tareas. Construyo productos completos: base de datos, API, interfaz y despliegue. Antes de programar, más de 8 años de docencia musical.",
   education: [
     {
       title: "Full Stack Development",

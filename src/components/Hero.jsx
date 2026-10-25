@@ -101,7 +101,8 @@ export default function Hero() {
             Contactarme
           </a>
           <a
-            href={personalInfo.cvUrl}
+            href="/cv.pdf"
+            download
             className="link-muted text-sm font-medium underline underline-offset-4"
           >
             Descargar CV
