@@ -149,28 +149,6 @@ export default function CV() {
               >
                 {project.summary}
               </p>
-
-              <ul className="mt-1 space-y-0.5">
-                {project.highlights.map((highlight) => (
-                  <li
-                    key={highlight}
-                    className="flex gap-2 text-[11px] leading-[1.45]"
-                    style={{ color: MUTED }}
-                  >
-                    <span style={{ color: "#9a9a8c" }} aria-hidden="true">
-                      —
-                    </span>
-                    <span>{highlight}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <p className="mt-1 text-[10.5px]" style={{ color: SOFT }}>
-                <span className="font-semibold" style={{ color: MUTED }}>
-                  Stack:
-                </span>{" "}
-                {project.technologies.join(" · ")}
-              </p>
             </div>
           ))}
         </Section>

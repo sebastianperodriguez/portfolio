@@ -27,13 +27,13 @@ const svg = `
 
   <text x="80" y="230" fill="#c9a96e" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="6">FULL STACK DEVELOPER</text>
 
-  <text x="80" y="322" fill="#e8e6e1" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="700">SebastiÃ¡n PÃ©rez RodrÃ­guez</text>
+  <text x="80" y="322" fill="#e8e6e1" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="700">Sebastián Pérez Rodríguez</text>
 
   <rect x="80" y="360" width="120" height="4" fill="#c9a96e"/>
 
-  <text x="80" y="432" fill="#a8a6a0" font-family="Helvetica, Arial, sans-serif" font-size="28">React Â· Node.js Â· Express Â· PostgreSQL Â· TypeScript</text>
+  <text x="80" y="432" fill="#a8a6a0" font-family="Helvetica, Arial, sans-serif" font-size="28">React · Node.js · Express · PostgreSQL · TypeScript</text>
 
-  <text x="80" y="486" fill="#a8a6a0" font-family="Helvetica, Arial, sans-serif" font-size="28">Vercel Â· Railway Â· Vitest Â· Gemini API Â· MCP</text>
+  <text x="80" y="486" fill="#a8a6a0" font-family="Helvetica, Arial, sans-serif" font-size="28">Vercel · Railway · Vitest · Gemini API · MCP</text>
 
   <text x="80" y="562" fill="#6f6e78" font-family="Helvetica, Arial, sans-serif" font-size="24">portfolio-sebas19.vercel.app</text>
 </svg>

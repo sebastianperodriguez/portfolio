@@ -1,7 +1,7 @@
 import Arcoins_Wallet from "../assets/Arcoins_Wallet.png";
 import Chat_Pino from "../assets/Chat_Pino.png";
 import Gestor_Tareas from "../assets/Gestor_Tareas.png";
-import Perfil from "../assets/Perfil.jpeg";
+import Perfil from "../assets/Perfil_optimizada.jpg";
 
 export const aboutImage = Perfil;
 
@@ -16,13 +16,13 @@ export const personalInfo = {
   linkedinLabel: "linkedin.com/in/sebastian-perez-rodriguez",
   githubLabel: "github.com/sebastianperodriguez",
   photo: Perfil,
-  location: "Bogotá, Colombia",
+  location: "Medellín, Colombia",
   availability: "Disponible para nuevas oportunidades",
   cvUrl: "/cv",
 };
 
 export const aboutText = [
-  "Soy desarrollador Full Stack y me mueve el ciclo completo de un producto: modelar la base de datos, diseñar la API, construir la interfaz y dejarla desplegada, testeada y documentada.",
+  "Soy desarrollador Full Stack y músico profesional me mueve el ciclo completo de un producto: modelar la base de datos, diseñar la API, construir la interfaz y dejarla desplegada, testeada y documentada.",
   "Trabajo con React en el frontend y Node.js con Express y PostgreSQL en el backend, y me siento cómodo moviéndome entre ambos lados sin quedarme solo en la UI.",
   "Me importa la calidad del código: testing automatizado con Vitest y Supertest, linting con Oxlint, y APIs documentadas con OpenAPI y Swagger.",
   "Fuera del bootcamp construí un servidor MCP (Model Context Protocol) que expone la API de GitHub como herramientas para asistentes de IA, y una API REST con PostgreSQL documentada con OpenAPI. Este portafolio está hecho con React, Vite, Tailwind CSS y Framer Motion.",
@@ -228,18 +228,17 @@ export const cvData = {
         "Carrera de Full Stack Development. Proyecto integrador por módulos: HTML/CSS/JS, Node.js + Express + PostgreSQL, React + IA, React + Firebase + AWS y TypeScript + MCP.",
     },
     {
-      title: "Filosofía y Letras",
-      institution: "[TU INSTITUCIÓN]",
-      period: "[AÑO — AÑO]",
-      detail:
-        "Formación en humanidades: análisis crítico, argumentación y redacción técnica.",
+      title: "Licenciatura en Música",
+      institution: "Universidad de Antioquia",
+      period: "2022 — Actualidad (en curso)",
+      detail: "Formación en teoría musical, armonía, composición y pedagogía musical.",
     },
   ],
   languages: [
     { name: "Español", level: "Nativo" },
-    { name: "Inglés", level: "Intermedio" },
+    { name: "Inglés", level: "Básico" },
   ],
   interests: [
-    "Música — compositor y músico; la tradición andina colombiana.",
+    "Música — compositor y docente de música con ocho años de experiencia docente",
   ],
 };
