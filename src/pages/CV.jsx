@@ -194,6 +194,20 @@ export default function CV() {
                   {language.name}
                 </span>{" "}
                 — {language.level}
+                {language.url && (
+                  <>
+                    {"  ·  "}
+                    <a
+                      href={language.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline underline-offset-2"
+                      style={{ color: MUTED }}
+                    >
+                      Verificar
+                    </a>
+                  </>
+                )}
               </li>
             ))}
           </ul>

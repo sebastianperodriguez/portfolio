@@ -240,7 +240,11 @@ export const cvData = {
   ],
   languages: [
     { name: "Español", level: "Nativo" },
-    { name: "Inglés", level: "Básico" },
+    {
+      name: "Inglés",
+      level: "Intermedio (B2) · EF SET 56/100",
+      url: "https://cert.efset.org/en/8TCSxy",
+    },
   ],
   interests: [
     "Música — compositor y docente de música con ocho años de experiencia docente",
