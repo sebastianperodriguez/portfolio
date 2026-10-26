@@ -155,13 +155,12 @@ export default function Navbar({ isDark, toggle }) {
         </ul>
 
         <div className="flex items-center gap-2">
-          <a
-            href="/cv.pdf"
-            download
+          <Link
+            to="/cv"
             className="btn-outline hidden rounded-lg px-4 py-2 text-sm font-medium md:inline-flex"
           >
-            Descargar CV
-          </a>
+            Ver CV
+          </Link>
 
           <button
             onClick={toggle}

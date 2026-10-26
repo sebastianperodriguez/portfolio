@@ -32,15 +32,18 @@ export default function Hero() {
             className="rounded-full border-2 p-1"
             style={{ borderColor: "var(--accent)" }}
           >
-            <div className="h-28 w-28 overflow-hidden rounded-full sm:h-32 sm:w-32">
-              <img
-                src={personalInfo.photo}
-                alt={`${personalInfo.name}, ${personalInfo.role}`}
-                className="h-full w-full object-cover object-top"
-                fetchPriority="high"
-                decoding="async"
-              />
-            </div>
+          <div
+            className="flex h-28 w-28 items-center justify-center rounded-full sm:h-32 sm:w-32"
+            style={{ backgroundColor: "#1a1a2e" }}
+          >
+            <span
+              className="text-4xl font-bold tracking-tight sm:text-5xl"
+              style={{ color: "#c9a96e", fontFamily: "var(--font-heading)" }}
+              aria-hidden="true"
+            >
+              SP
+            </span>
+          </div>
           </div>
 
           <span

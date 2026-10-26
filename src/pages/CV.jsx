@@ -101,6 +101,15 @@ export default function CV() {
             >
               {personalInfo.githubLabel}
             </a>
+            {"  ·  "}
+            <a
+              href={personalInfo.portfolioUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: MUTED }}
+            >
+              {personalInfo.portfolioLabel}
+            </a>
           </p>
         </header>
 

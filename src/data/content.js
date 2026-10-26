@@ -15,6 +15,8 @@ export const personalInfo = {
   github: "https://github.com/sebastianperodriguez",
   linkedinLabel: "linkedin.com/in/sebastian-perez-rodriguez",
   githubLabel: "github.com/sebastianperodriguez",
+  portfolioUrl: "https://portfolio-sebas19.vercel.app",
+  portfolioLabel: "portfolio-sebas19.vercel.app",
   photo: Perfil,
   location: "Medellín, Colombia",
   availability: "Disponible para nuevas oportunidades",
