@@ -35,7 +35,7 @@ const svg = `
 
   <text x="80" y="486" fill="#a8a6a0" font-family="Helvetica, Arial, sans-serif" font-size="28">Vercel · Railway · Vitest · Gemini API · MCP</text>
 
-  <text x="80" y="562" fill="#6f6e78" font-family="Helvetica, Arial, sans-serif" font-size="24">portfolio-sebas19.vercel.app</text>
+  <text x="80" y="562" fill="#6f6e78" font-family="Helvetica, Arial, sans-serif" font-size="24">sebasperez.dev</text>
 </svg>
 `;
 

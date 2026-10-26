@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const outDir = resolve(__dirname, "..", ".screenshots");
 mkdirSync(outDir, { recursive: true });
 
-const base = process.env.BASE_URL || "https://portfolio-sebas19.vercel.app";
+const base = process.env.BASE_URL || "https://www.sebasperez.dev";
 
 const browser = await chromium.launch({ channel: "msedge" });
 

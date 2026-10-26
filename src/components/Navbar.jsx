@@ -102,7 +102,7 @@ export default function Navbar({ isDark, toggle }) {
       initial="hidden"
       animate="visible"
       variants={fadeUp}
-      className="no-print fixed top-0 right-0 left-0 z-50 backdrop-blur-md"
+      className="no-print fixed top-0 right-0 left-0 z-50"
       style={{
         backgroundColor: isDark
           ? "rgba(18, 18, 24, 0.85)"
@@ -112,7 +112,11 @@ export default function Navbar({ isDark, toggle }) {
       role="navigation"
       aria-label="Navegación principal"
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 -z-10 backdrop-blur-md"
+      />
+      <div className="relative mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#hero" className="flex items-center gap-3">
           <span
             className="flex h-9 w-9 items-center justify-center rounded-lg text-sm font-semibold tracking-tight"

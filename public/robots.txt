@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://portfolio-sebas19.vercel.app/sitemap.xml
+Sitemap: https://www.sebasperez.dev/sitemap.xml

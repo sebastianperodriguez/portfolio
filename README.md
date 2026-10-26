@@ -1,14 +1,14 @@
 # Portafolio — Sebastián Pérez Rodríguez
 
 [![CI](https://github.com/sebastianperodriguez/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/sebastianperodriguez/portfolio/actions/workflows/ci.yml)
-[![Deploy](https://img.shields.io/badge/deploy-Vercel-000000?logo=vercel&logoColor=white)](https://portfolio-sebas19.vercel.app)
+[![Deploy](https://img.shields.io/badge/deploy-Vercel-000000?logo=vercel&logoColor=white)](https://www.sebasperez.dev)
 
 Portafolio personal de **Sebastián Pérez Rodríguez**, Full Stack Developer.
 Sitio estático construido con React, showcasing proyectos reales de frontend,
 backend e IA, con un CV descargable en formato Harvard.
 
-🌐 **Demo:** https://portfolio-sebas19.vercel.app
-📄 **CV:** https://portfolio-sebas19.vercel.app/cv
+🌐 **Demo:** https://www.sebasperez.dev
+📄 **CV:** https://www.sebasperez.dev/cv
 
 ---
 

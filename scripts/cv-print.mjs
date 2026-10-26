@@ -11,7 +11,7 @@ const page = await browser.newPage({
   deviceScaleFactor: 1,
 });
 
-await page.goto("https://portfolio-sebas19.vercel.app/cv", {
+await page.goto("https://www.sebasperez.dev/cv", {
   waitUntil: "networkidle",
 });
 await page.emulateMedia({ media: "print" });
