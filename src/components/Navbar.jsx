@@ -62,6 +62,16 @@ export default function Navbar({ isDark, toggle }) {
     restDelta: 0.001,
   });
 
+  const scrollToSection = (event, href) => {
+    event.preventDefault();
+    setOpen(false);
+    const target = document.querySelector(href);
+    if (!target) return;
+    window.setTimeout(() => {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 80);
+  };
+
   const links = [
     { label: "Sobre mí", href: "#about", id: "about" },
     { label: "Proyectos", href: "#projects", id: "projects" },
@@ -178,7 +188,7 @@ export default function Navbar({ isDark, toggle }) {
           <button
             onClick={() => setOpen((prev) => !prev)}
             className="rounded-lg p-2 transition-colors duration-200 md:hidden"
-            style={{ color: "var(--fg-muted)" }}
+            style={{ color: "var(--fg-muted)", touchAction: "manipulation" }}
             aria-label={open ? "Cerrar menú" : "Abrir menú"}
             aria-expanded={open}
             aria-controls="menu-movil"
@@ -200,6 +210,7 @@ export default function Navbar({ isDark, toggle }) {
             style={{
               backgroundColor: "var(--bg)",
               borderColor: "var(--border)",
+              touchAction: "manipulation",
             }}
           >
             <ul className="flex flex-col px-6 py-3">
@@ -207,7 +218,7 @@ export default function Navbar({ isDark, toggle }) {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    onClick={() => setOpen(false)}
+                    onClick={(event) => scrollToSection(event, link.href)}
                     className="block py-3 text-sm font-medium"
                     style={{ color: "var(--fg)" }}
                   >

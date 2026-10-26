@@ -27,27 +27,34 @@ export default function Hero() {
         animate="visible"
         className="flex max-w-3xl flex-col items-center text-center"
       >
-        <motion.div variants={item} className="relative mb-9">
+        <motion.div variants={item} className="mb-10 flex flex-col items-center">
           <div
             className="rounded-full border-2 p-1"
             style={{ borderColor: "var(--accent)" }}
           >
-          <div
-            className="flex h-28 w-28 items-center justify-center rounded-full sm:h-32 sm:w-32"
-            style={{ backgroundColor: "#1a1a2e" }}
-          >
-            <span
-              className="text-4xl font-bold tracking-tight sm:text-5xl"
-              style={{ color: "#c9a96e", fontFamily: "var(--font-heading)" }}
-              aria-hidden="true"
+            <div
+              className="flex h-28 w-28 items-center justify-center rounded-full sm:h-32 sm:w-32"
+              style={{ backgroundColor: "#1a1a2e" }}
             >
-              SP
-            </span>
-          </div>
+              <span
+                className="text-4xl font-bold tracking-tight sm:text-5xl"
+                style={{ color: "#c9a96e", fontFamily: "var(--font-heading)" }}
+                aria-hidden="true"
+              >
+                SP
+              </span>
+            </div>
           </div>
 
+          <p
+            className="mt-3 text-[11px] font-medium tracking-[0.25em] uppercase"
+            style={{ color: "var(--fg-muted)" }}
+          >
+            {personalInfo.portfolioLabel}
+          </p>
+
           <span
-            className="absolute -bottom-2 left-1/2 flex -translate-x-1/2 items-center gap-2 rounded-full border px-3 py-1 text-[10px] font-medium tracking-wide whitespace-nowrap"
+            className="mt-2.5 flex items-center gap-2 rounded-full border px-3 py-1 text-[10px] font-medium tracking-wide whitespace-nowrap"
             style={{
               backgroundColor: "var(--bg)",
               borderColor: "var(--border)",
