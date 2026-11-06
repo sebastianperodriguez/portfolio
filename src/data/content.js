@@ -24,7 +24,7 @@ export const personalInfo = {
 };
 
 export const aboutText = [
-  "Soy desarrollador Full Stack y músico profesional me mueve el ciclo completo de un producto: modelar la base de datos, diseñar la API, construir la interfaz y dejarla desplegada, testeada y documentada.",
+  "Soy desarrollador Full Stack y músico profesional me apasiona el desarrollo web en todas sus fases: modelar la base de datos, diseñar la API, construir la interfaz y dejarla desplegada, testeada y documentada.",
   "Trabajo con React en el frontend y Node.js con Express y PostgreSQL en el backend, y me siento cómodo moviéndome entre ambos lados sin quedarme solo en la UI.",
   "Me importa la calidad del código: testing automatizado con Vitest y Supertest, linting con Oxlint, y APIs documentadas con OpenAPI y Swagger.",
   "Fuera del bootcamp construí un servidor MCP (Model Context Protocol) que expone la API de GitHub como herramientas para asistentes de IA, y una API REST con PostgreSQL documentada con OpenAPI. Este portafolio está hecho con React, Vite, Tailwind CSS y Framer Motion.",
